@@ -8,3 +8,8 @@ class Student(User):
         self.knowledge = knowledge
     def learn(self):
         pass
+
+james_hawk = Student("James", "Hawk", [])
+
+james_hawk.__dict__ 
+
